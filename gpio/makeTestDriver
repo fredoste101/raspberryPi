@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ -std=c++11 -o gpioDriver testDriverForGpio.cpp gpioBoardInterface.cpp gpioPinInterface.cpp gpioSignaling.cpp -l wiringPi
